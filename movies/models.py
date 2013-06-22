@@ -28,6 +28,9 @@ class Movie(models.Model):
     def __unicode__(self):
         return self.title
 
+    class Meta:
+        ordering = ('title',)
+
 
 class Genre(models.Model):
     genre = models.CharField(max_length=32)

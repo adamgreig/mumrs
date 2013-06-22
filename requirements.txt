@@ -1,5 +1,7 @@
 Django==1.5.1
 argparse==1.2.1
+djangorestframework==2.3.5
+docutils==0.10
 numpy==1.7.1
 scikit-learn==0.13.1
 wsgiref==0.1.2
